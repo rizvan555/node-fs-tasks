@@ -1,5 +1,4 @@
-import { existsSync } from "fs";
-import { writeFile } from "fs/promises";
+import { writeFile,existsSync } from "fs/promises";
 
 const createNewFile = (newText) => {
   const fileName = "data.txt";
